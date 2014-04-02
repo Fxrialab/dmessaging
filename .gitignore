@@ -1,1 +1,10 @@
-".idea" 
+/node_modules/
+npm-debug.log
+.tscache/build/hashes/.baseDir.ts-de85e9423ea8ad1ac3a1543292f64647
+.tscache/build/hashes/Binding.ts-15e870b617601edf8fb59ed4f383298a
+.tscache/build/hashes/Queue.ts-7af2fb4b12462019d9bbdb1fc361f014
+.tscache/build/hashes/Subscription.ts-ca0f69bd99ed58fef4e403b36b10d682
+.tscache/build/hashes/collections.ts-31adc807706de5ea67be88bce1970a6c
+.tscache/build/hashes/reference.ts-a34f690a7af3d6f037c146b803a84c38
+.tscache/build/timestamp
+bin/

@@ -1,25 +1,48 @@
 {
   "name": "d-messaging",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js" 
-      
+  "version": "0.0.0",
+  "main": "lib/d-messaging.js",
+  "description": "messaging sever with topic/fanout exchanges",
+  "homepage": "http://github.com/Fxrialab/d-messaging",
+  "bugs": "user/repo/issues",
+  "author": {
+    "name": "Minh Tran",
+    "email": "gtdminh@gmail.com",
+    "url": "http://fxrialab.net"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/Fxrialab/d-messaging.git"
+    "url": "user/repo"
   },
-  "keywords": [
-    "pubsub",
-    "topic",
-    "node"
+  "licenses": [
+    {
+      "type": "MIT"
+    }
   ],
-  "author": "Minh Tran",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Fxrialab/d-messaging/issues"
+  "files": [
+    ""
+  ],
+  "keywords": [
+    "fanout",
+    "topic",
+    "messaging",
+    "message-queue"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.0",
+    "jshint-stylish": "~0.1.3",
+    "mochai": "~0.2.5",
+    "grunt-typescript": "~0.2.10",
+    "grunt-ts": "~1.10.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.16"
   }
 }
